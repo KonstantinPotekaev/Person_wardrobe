@@ -5,6 +5,7 @@ public class Main {
         person.AddWardrobe(wardrobe);
         person.ChangePosition(true);
 
+
         wardrobe.OpenWardrobe(new Person(true));
     }
 }
