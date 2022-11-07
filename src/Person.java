@@ -24,7 +24,7 @@ public class Person {
     public void AddWardrobe(Wardrobe wardrobe){
         for (var i : wardrobes){
             if (i == wardrobe){
-                throw
+                throw туц
             }
         }
         wardrobes.add(wardrobe);
