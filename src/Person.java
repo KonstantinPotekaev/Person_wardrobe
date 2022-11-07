@@ -1,3 +1,4 @@
+import java.lang.reflect.Executable;
 import java.security.PublicKey;
 import java.util.ArrayList;
 import java.util.List;
@@ -21,13 +22,21 @@ public class Person {
         return false;
     }
 
+    public boolean BesideWardrobe(){
+        return _BesideWardrobe;
+    }
     public void AddWardrobe(Wardrobe wardrobe){
+        boolean flag = true;
         for (var i : wardrobes){
             if (i == wardrobe){
-                throw туц
+                Exceptions.WardrobeAlreadyExistsException();
+                flag = false;
             }
         }
-        wardrobes.add(wardrobe);
+        if(flag) {
+            wardrobes.add(wardrobe);
+        }
     }
+
 
 }
