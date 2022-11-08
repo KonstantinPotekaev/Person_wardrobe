@@ -6,6 +6,6 @@ public class Main {
         person.ChangePosition(true);
 
 
-        wardrobe.OpenWardrobe(new Person(true));
+        wardrobe.OpenWardrobe(new Person(true))ж
     }
 }
