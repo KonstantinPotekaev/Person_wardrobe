@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="431e3b00-2035-4c22-bc3b-73fa1a052b8d" name="Changes" comment="Создано взаимодействие между шкафом и человеком.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="431e3b00-2035-4c22-bc3b-73fa1a052b8d" name="Changes" comment="Не придумал, что можно тут изменить, изпользуя абстрактные класс и интерфейсы" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +15,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -67,6 +70,7 @@
       <workItem from="1667811520368" duration="23000" />
       <workItem from="1667834895257" duration="1757000" />
       <workItem from="1667922628200" duration="88000" />
+      <workItem from="1668005145271" duration="560000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1667811257505</created>
@@ -110,7 +114,28 @@
       <option name="project" value="LOCAL" />
       <updated>1667893915616</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Не придумал, что можно тут изменить, изпользуя абстрактные класс и интерфейсы">
+      <created>1668005277295</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668005277295</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Не придумал, что можно тут изменить, изпользуя абстрактные класс и интерфейсы">
+      <created>1668005334932</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668005334932</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Не придумал, что можно тут изменить, изпользуя абстрактные класс и интерфейсы">
+      <created>1668005549183</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668005549183</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +155,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
     <MESSAGE value="Создано взаимодействие между шкафом и человеком." />
-    <option name="LAST_COMMIT_MESSAGE" value="Создано взаимодействие между шкафом и человеком." />
+    <MESSAGE value="Не придумал, что можно тут изменить, изпользуя абстрактные класс и интерфейсы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Не придумал, что можно тут изменить, изпользуя абстрактные класс и интерфейсы" />
   </component>
 </project>
