@@ -1,7 +1,6 @@
 import java.lang.reflect.Executable;
 
 public class Wardrobe {
-
     private boolean _isOpen;
 
 
