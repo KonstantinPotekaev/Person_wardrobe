@@ -4,13 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Person {
-    private boolean _BesideWardrobe;
+    private boolean besideWardrobe;
     private List<Wardrobe> wardrobes = new ArrayList<>();
-    public Person(boolean BesideWardrobe) {
-        _BesideWardrobe = BesideWardrobe;
+    public Person(boolean besideWardrobe) {
+        this.besideWardrobe = besideWardrobe;
     }
-    public void ChangePosition(boolean BesideWardrobe){
-        _BesideWardrobe = BesideWardrobe;
+    public void changePosition(boolean BesideWardrobe){
+        this.besideWardrobe = BesideWardrobe;
     }
 
     public boolean isOwner(Wardrobe wardrobe){
@@ -22,10 +22,10 @@ public class Person {
         return false;
     }
 
-    public boolean BesideWardrobe(){
-        return _BesideWardrobe;
+    public boolean besideWardrobe(){
+        return this.besideWardrobe;
     }
-    public void AddWardrobe(Wardrobe wardrobe){
+    public void addWardrobe(Wardrobe wardrobe){
         boolean flag = true;
         for (var i : wardrobes){
             if (i == wardrobe){

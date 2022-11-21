@@ -70,7 +70,7 @@
       <workItem from="1667811520368" duration="23000" />
       <workItem from="1667834895257" duration="1757000" />
       <workItem from="1667922628200" duration="88000" />
-      <workItem from="1668005145271" duration="560000" />
+      <workItem from="1668005145271" duration="844000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1667811257505</created>
@@ -135,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668005549183</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Не придумал, что можно тут изменить, изпользуя абстрактные класс и интерфейсы">
+      <created>1668005724171</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668005724171</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

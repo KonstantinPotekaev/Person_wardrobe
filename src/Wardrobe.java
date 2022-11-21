@@ -1,30 +1,30 @@
 import java.lang.reflect.Executable;
 
 public class Wardrobe {
-    private boolean _isOpen;
+    private boolean isOpen;
 
 
-    public void OpenWardrobe(Person person) {
+    public void openWardrobe(Person person) {
         if (!person.isOwner(this)){
             Exceptions.IsNotOwnerException();
         }
-        else if (!person.BesideWardrobe()){
+        else if (!person.besideWardrobe()){
             Exceptions.IsNotBesideWardrobe();
         }
         else{
-            _isOpen = true;
+            isOpen = true;
         }
     }
 
-    public void CloseWardrobe(Person person) {
+    public void closeWardrobe(Person person) {
         if (!person.isOwner(this)){
             Exceptions.IsNotOwnerException();
         }
-        else if (!person.BesideWardrobe()){
+        else if (!person.besideWardrobe()){
             Exceptions.IsNotBesideWardrobe();
         }
         else{
-            _isOpen = false;
+            isOpen = false;
         }
     }
 
